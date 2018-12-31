@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M2Mqtt.Net", "M2Mqtt\M2Mqtt.Net.csproj", "{A11AEF5A-B246-4FE8-8330-06DB73CC8074}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M2Mqtt.NetCf39", "M2Mqtt\M2Mqtt.NetCf39.csproj", "{BB9B7FF4-6502-41AF-8851-5060B67645E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M2Mqtt.NetMf42", "M2Mqtt\M2Mqtt.NetMf42.csproj", "{F733523A-F14E-4F5A-9E7C-085CA80F52B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M2Mqtt.NetMf43", "M2Mqtt\M2Mqtt.NetMf43.csproj", "{6A6D540B-8554-4FFD-8884-8BEFCCD9AD41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M2Mqtt.WinRT", "M2Mqtt\M2Mqtt.WinRT.csproj", "{0238F0E3-A02B-428D-8A3F-410D8F15BB50}"
+EndProject
+Project("{11A8DD76-328B-46DF-9F39-F559912D0360}") = "M2Mqtt.Nanoframework", "M2Mqtt.Nanoframework\M2Mqtt.Nanoframework.nfproj", "{D9180E3A-7803-4CD2-B1D3-96286B658241}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{62027680-B493-499E-B20B-E953813574D7}"
+EndProject
+Project("{11A8DD76-328B-46DF-9F39-F559912D0360}") = "nf-TestMqtt", "nf-TestMqtt\nf-TestMqtt.nfproj", "{11963078-FF85-4C82-B556-A11BB21AE9EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A11AEF5A-B246-4FE8-8330-06DB73CC8074}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A11AEF5A-B246-4FE8-8330-06DB73CC8074}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A11AEF5A-B246-4FE8-8330-06DB73CC8074}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A11AEF5A-B246-4FE8-8330-06DB73CC8074}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB9B7FF4-6502-41AF-8851-5060B67645E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB9B7FF4-6502-41AF-8851-5060B67645E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB9B7FF4-6502-41AF-8851-5060B67645E8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BB9B7FF4-6502-41AF-8851-5060B67645E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB9B7FF4-6502-41AF-8851-5060B67645E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB9B7FF4-6502-41AF-8851-5060B67645E8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F733523A-F14E-4F5A-9E7C-085CA80F52B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F733523A-F14E-4F5A-9E7C-085CA80F52B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F733523A-F14E-4F5A-9E7C-085CA80F52B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F733523A-F14E-4F5A-9E7C-085CA80F52B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A6D540B-8554-4FFD-8884-8BEFCCD9AD41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A6D540B-8554-4FFD-8884-8BEFCCD9AD41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A6D540B-8554-4FFD-8884-8BEFCCD9AD41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A6D540B-8554-4FFD-8884-8BEFCCD9AD41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0238F0E3-A02B-428D-8A3F-410D8F15BB50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0238F0E3-A02B-428D-8A3F-410D8F15BB50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0238F0E3-A02B-428D-8A3F-410D8F15BB50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0238F0E3-A02B-428D-8A3F-410D8F15BB50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9180E3A-7803-4CD2-B1D3-96286B658241}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9180E3A-7803-4CD2-B1D3-96286B658241}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9180E3A-7803-4CD2-B1D3-96286B658241}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D9180E3A-7803-4CD2-B1D3-96286B658241}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9180E3A-7803-4CD2-B1D3-96286B658241}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9180E3A-7803-4CD2-B1D3-96286B658241}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{11963078-FF85-4C82-B556-A11BB21AE9EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11963078-FF85-4C82-B556-A11BB21AE9EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11963078-FF85-4C82-B556-A11BB21AE9EE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{11963078-FF85-4C82-B556-A11BB21AE9EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11963078-FF85-4C82-B556-A11BB21AE9EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11963078-FF85-4C82-B556-A11BB21AE9EE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{11963078-FF85-4C82-B556-A11BB21AE9EE} = {62027680-B493-499E-B20B-E953813574D7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F78C5BD-A18E-4307-9B92-79A659BF9AB3}
+	EndGlobalSection
+EndGlobal
