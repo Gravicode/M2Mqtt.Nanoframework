@@ -12,8 +12,8 @@ namespace nf_TestMqtt
         public class Program
         {
             // Set the SSID & Password to your local WiFi network
-            const string MYSSID = "WIFI_KELUARGA";
-            const string MYPASSWORD = "123qweasd";
+            const string MYSSID = "your ssid";
+            const string MYPASSWORD = "your pass";
 
             public static void Main()
             {
@@ -86,7 +86,7 @@ namespace nf_TestMqtt
         static MqttClient client;
         static void SetupMqtt()
         {
-            const string MQTT_BROKER_ADDRESS = "13.76.142.227";
+            const string MQTT_BROKER_ADDRESS = "your mqtt broker ip";
             // create client instance 
             client = new MqttClient(IPAddress.Parse(MQTT_BROKER_ADDRESS));
 
@@ -94,7 +94,7 @@ namespace nf_TestMqtt
             client.MqttMsgPublishReceived += client_MqttMsgPublishReceived;
 
             string clientId = Guid.NewGuid().ToString();
-            client.Connect(clientId,"mifmasterz","123qweasd");
+            client.Connect(clientId,"your username","your pass");
 
             // subscribe to the topic "/home/temperature" with QoS 2 
             client.Subscribe(new string[] { "mifmasterz/artos/data" }, new byte[] { MqttMsgBase.QOS_LEVEL_AT_MOST_ONCE });
